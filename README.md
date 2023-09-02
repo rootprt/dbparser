@@ -10,6 +10,7 @@ python dbparse.py -i INPUT_FILE -s SEARCH_TERM
 ## EXTRA PARAMETERS:
 
 -o OUTPUTFILE - Default is "dbparse.txt"
+
 -e EXCEPTION - Make exceptions for parsing the database
 
 ### Example:
@@ -26,7 +27,7 @@ This would give you a parsed copy of example.txt as a file called example2.txt t
 
 Sometimes filetypes are written with different encoding styles. The preset for DBParser is utf-8, but it can be changed in the source code.
 
-It's pretty basic to use, just run encoding_type.py and input the file path. If it's anything other than utf-8; take that encoding type and replace the "utf-8" section in dbparser.py with whatever the output was.
+Easy to use, just run encoding_type.py and input the file path. If it's anything other than utf-8; replace the "utf-8" section in dbparser.py with whatever the encoding type is.
 
 ```
 python encoding_type.py
