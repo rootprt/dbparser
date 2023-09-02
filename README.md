@@ -32,7 +32,7 @@ python dbparser.py -i input_file -s search_term
 python dbparse.py -i example.txt -s hello -o example2.txt -e world
 ```
 
-This would give you a parsed copy of example.txt as a file called example2.txt that only includes "hello",and specifies that if "world" is in the line, not to bring it over to example2.txt.
+This would give you a parsed copy of example.txt as a file called example2.txt that only includes "hello", and specifies that if "world" is in the line, not to bring it over to example2.txt.
 
 # ENCODING TYPE:
 
