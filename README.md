@@ -2,23 +2,23 @@
 Sort databases with the dbparser.py tool
 
 ## BASIC USAGE:
+
 '''
 python dbparse.py -i INPUT_FILE -s SEARCH_TERM
 '''
+
 ## EXTRA PARAMETERS:
 
 -o OUTPUTFILE - Default is "dbparse.txt"
--e EXCEPTION - Make exceptions for parsing the database / EXAMPLE: "... -e XBOX" would exclude any results that had XBOX in the line.
+-e EXCEPTION - Make exceptions for parsing the database
 
 ### Example:
+
 '''
-python dbparse.py -i gamers.txt -o steamers.txt -e PSN
+python dbparse.py -i example.txt -s hello -o example2.txt -e world
 '''
 
-This would give you a parsed database of gamers.txt as a file called steamers.txt that only includes Steam profiles,
-and specifies that if "PSN" is in the line, not to bring it over to steamers.txt
-
-This could be useful for accounts that have "steam" in the username or email rather than as a signification that it is a Steam profile.
+This would give you a parsed copy of example.txt as a file called example2.txt that only includes "hello",and specifies that if "world" is in the line, not to bring it over to example2.txt.
 
 # ENCODING TYPE:
 
