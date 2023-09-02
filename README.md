@@ -4,7 +4,7 @@ Sort databases with the dbparser.py tool
 ## BASIC USAGE:
 
 ```
-python dbparse.py -i INPUT_FILE -s SEARCH_TERM
+python dbparser.py -i INPUT_FILE -s SEARCH_TERM
 ```
 
 ## EXTRA PARAMETERS:
