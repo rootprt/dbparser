@@ -10,7 +10,7 @@ args = parser.parse_args()
 with open(args.i, "r", encoding="utf-8") as input_file:
     with open(args.o, "w", encoding="utf-8") as output_file:
         for line in input_file:
-            if not args.e or (args.e and args.e not in line):
+            if not args.e or args.e not in line:
                 if args.s in line:
                     lines = line.split("\n")
                     for split_line in lines:
